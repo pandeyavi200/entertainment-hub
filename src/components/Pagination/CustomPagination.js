@@ -1,4 +1,4 @@
-import Pagination from "@material-ui/lab/pagination";
+import Pagination from "@material-ui/lab/Pagination";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core";
 function CustomPagination({setPage, numberOfPages= 10}) {
    const handlePageChange=(page)=>{
